@@ -44,4 +44,4 @@ def generate_and_write_json(file_path):
         json.dump(result, js_file, indent=2)
 
 
-generate_and_write_json("3_task.json")
+generate_and_write_json("3rd_task.json")
