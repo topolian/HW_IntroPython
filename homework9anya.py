@@ -25,9 +25,9 @@ def create_dict_js(numb_of_keys):
     for rand_key in data:
         if data[rand_key] == "int_value":
             data[rand_key] = randint(-100, 100)
-        if data[rand_key] == "float_value":
+        elif data[rand_key] == "float_value":
             data[rand_key] = uniform(0, 1)
-        if data[rand_key] == "bool_value":
+        else:
             data[rand_key] = choice([True, False])
     return data
 
